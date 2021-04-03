@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Guess the number game</h1>
+        <p>Guess a number between 1 to 10</p>
+        <p id="display">Enter a number</p>
+        <p id="chances">Chances: 3</p>
+        <input type="number" min="1" max="10" name="number" id="number">
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="winDisplay">
+        <h1>You win the game!!👏</h1>
+        <input type="submit" name="again" value="Try again">
+    </div>
+
+    <div class="loseDisplay">
+        <h1>You lose the game😢</h1>
+        <input type="submit" name="again" value="Try again">
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
