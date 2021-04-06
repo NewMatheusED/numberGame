@@ -13,9 +13,13 @@
         <h1>Guess the number game</h1>
         <p>Guess a number between 1 to 10</p>
         <p id="display">Enter a number</p>
+        <p id="hit">Hit:</p>
         <p id="chances">Chances: 3</p>
         <input type="number" min="1" max="10" name="number" id="number">
-        <input type="submit" value="Submit">
+        <div class="flex-itens">
+            <input type="submit" value="Submit">
+            <input type="submit" value="Get hit" name="hit">
+        </div><!--flex-itens-->
     </form>
 
     <div class="winDisplay">

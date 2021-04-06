@@ -15,7 +15,7 @@ body {
 
 form {
     width: 400px;
-    height: 350px;
+    height: 400px;
     background-color: #fff;
     padding: 2rem;
     position: absolute;
@@ -47,6 +47,9 @@ form input[type='number']:focus {
 	outline: none;
 }
 
+form .flex-itens {
+    display: flex;
+}
 
 form input[type='submit'], 
 .winDisplay input[type='submit'],
@@ -68,7 +71,7 @@ form input[type='submit'],
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 350px;
+    height: 400px;
     background-color: #fff;
     padding: 2rem;
 }
@@ -85,7 +88,7 @@ form input[type='submit'],
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 350px;
+    height: 400px;
     background-color: #fff;
     padding: 2rem;
 }
